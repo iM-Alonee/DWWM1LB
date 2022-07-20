@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(5, 5, 5, 0.808);
+    
+    text-align: center;
+}
+
+.left {
+    width: 25%;
+    text-align: left;
+    color: rgb(42, 144, 235); 
+    display: flex;  
+    justify-content: space-evenly;
+    border-right: 1px solid whitesmoke; height: 100px;
+}
+
+
+.taille {
+    width: 70%; height: 20%;
+}
+
+.mention {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.mention a {
+    /* color: aliceblue; */
+    text-decoration-line: none;
+}
+
+.right {
+    width: 25%;
+    text-align: right;
+    color: aliceblue;
+    margin-right: 3%;
+    border-left: 1px solid whitesmoke; height: 100px;
+}
+
+i {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.color {
+    color: aliceblue;
+}
+
+
+
+.footer a:hover {
+    color: rgb(152, 200, 248);
+
+}
+
+.footer a:visited {
+    color: rgb(250, 250, 255);
+}
+
+.footer a:active {
+    color: aqua;
+}

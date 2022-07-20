@@ -1,0 +1,35 @@
+body {
+  /* background-color: rgb(253, 253, 253); */
+  background: url(../img/brique.jpg);
+  text-align: center;
+  
+}
+a.todo {
+  text-decoration: none;
+  color: rgb(72, 10, 241);
+  font-size: 30px;
+  margin-right: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+a.todo:hover {
+  color: rgb(2, 128, 65);
+}
+
+a.update {
+  text-decoration: none;
+  color: brown;
+  font-size: 35px;
+  font-family: fantasy;
+}
+a.update:hover {
+  color: rgb(238, 157, 5);
+}
+.titre {
+  color: rgba(8, 8, 8, 0.452);
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.border {
+  border: solid black 2px;
+}
