@@ -1,0 +1,156 @@
+ /* quand on clique dessus */
+ form :active {
+    color: rgb(120, 124, 134);
+  }
+
+  html {
+    background-color: black;
+    background-image: url('../image/fondmanga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body {
+    margin-top: 7%;
+  }
+  
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    padding: 10px 20px 40px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .6);
+    position: relative;
+    height: 35em;
+    width: 30em;
+  }
+  
+  .space {
+    margin: 10%;
+  }
+  
+  .text-hr1 {
+    margin-left: -35%;
+    width: 170%;
+  }
+  
+  .user-title {
+    margin: 10px;
+    padding-bottom: 30px;
+    /* border-bottom: 1px solid #fff; */
+    line-height: 1.2;
+    font-size: 2.2em;
+    font-weight: normal;
+  }
+  
+  .user-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  #user-connect {
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: rgb(81, 225, 98);
+    width: 13em;
+    height: 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .user-label {
+    margin: 10px 0;
+  }  
+  
+  .client {
+    text-align: center;
+    text-decoration: underline;
+  }
+    
+  .user-forget {
+    font-size: small;
+    color: rgb(196, 1, 255);
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .text-hr2 {
+    margin-left: -90%;
+    width: 280%;
+  }
+  
+  .user-new {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+  }
+  
+  #user-register {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 3px;
+    background-color: rgb(81, 225, 98);
+    width: 13em;
+    height: 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+
+a {
+  margin-top: 20%;
+  text-decoration: none;
+  color: rgb(81, 81, 81);
+}
+
+  .navbar {
+    text-align: center;
+  }
+
+  ul {
+    font-size: large;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    margin-top: -7%;
+    margin-left: 89%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(30, 0, 72, 0.154);
+}
+
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#login {
+  background-color: rgba(0, 0, 0, 0);
+  width: 7em;
+  height: 2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+#register {
+  margin-left: 5%;
+  background-color: rgba(0, 0, 0, 0);
+  width: 10em;
+  height: 2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}

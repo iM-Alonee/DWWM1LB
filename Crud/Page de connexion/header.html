@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <nav>
+
+        <ul>
+          <div class="flex">
+            <li>
+              <Link to="/">
+                <img src="/assets/LOGO.png" width="20%"></img>
+              </Link>
+            </li>
+
+            <li>
+              <div class="gauche">
+                <Link class="nav-link" to="products/videogames">Jeux vidéos &ensp;</Link>
+                <ul class="sous">
+                  <li><Link class="nav-link" to="products/videogames/action">Action/Multijoueur</Link></li>
+                  <li><Link class="nav-link" to="products/videogames/mmorpg">MMORPG</Link></li>
+                  <li><Link class="nav-link" to="products/videogames/fps">FPS</Link></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="deroulant">
+                <Link class="nav-link" to="products/mangas">Mangas &ensp;</Link>
+                <ul class="sous">
+                  <li><Link class="nav-link" to="products/mangas/shonen">Shonen</Link></li>
+                  <li><Link class="nav-link" to="products/mangas/seinen">Seinen</Link></li>
+                  <li><Link class="nav-link" to="products/mangas/shojo">Shojo</Link></li>
+                  <li><Link class="nav-link" to="products/mangas/goodies">Goodies</Link></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <input id="bar" type="text" name="recherche" placeholder="Recherche...🔍"></input>
+            </li>
+            <li>
+              <div class="deroulant">
+                <Link class="nav-link" to="help"><MdHelpOutline size={25} /></Link>
+                <ul class="sous">
+                  <li><Link class="nav-link" to="">Problème de connexion</Link></li>
+                  <li><Link class="nav-link" to="">Conseil sur un produit</Link></li>
+                  <li><Link class="nav-link" to="">Litige/problème d'envoie ou de réception du colis</Link></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="deroulant">
+                <Link class="nav-link" to="user"><ImUser size={25} color="white" /></Link>
+                <ul class="sous">
+                  <li><Link class="nav-link" to="compte.html">Se connecter / déconnecter</Link></li>
+                  <li><Link class="nav-link" to="commande.html">Mes commandes</Link></li>
+                  <li><Link class="nav-link" to="profil.html">Mon profil</Link></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="deroulant">
+                <Link to="shoppingcart"><HiOutlineShoppingCart size={25} color="white" /></Link>
+                <ul class="sous">
+                </ul>
+              </div>
+            </li>
+          </div>
+        </ul>
+
+      </nav>  
+
+</body>
+</html>
